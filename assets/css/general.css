@@ -25,6 +25,7 @@ a:link {
   align-content: flex-start;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .onpage {
@@ -241,6 +242,7 @@ a:link {
   width: 100%;
   display: flex;
   background: white;
+  justify-content: space-around;
 }
 
 .select-pais {

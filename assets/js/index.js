@@ -297,9 +297,9 @@ jQuery( function( $ ) {
     const $checkout_form = $( '#token-credit' );
     $checkout_form.on('submit', function (event) {
         event.preventDefault();
-        var key = $("#p_c").text();
-        var key_p = $("#p_p").text();
-        var lang = $("#lang_epayco").text();
+        var key = $("#p_c").text(); //se configura la llave publica
+        var key_p = $("#p_p").text();//se configura la p_key
+        var lang = $("#lang_epayco").text();//se configura el lenguaje
         ePayco.setPublicKey(key);
         ePayco.setLanguage(lang);
         var $form = $(this);
